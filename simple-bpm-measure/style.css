@@ -1,0 +1,90 @@
+html, body, div, a, h1, h2, h3, h4, h5, h6, p, img, ul, li, span{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    z-index: 5;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: #272727;
+    font-family: "Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    touch-action: manipulation;
+}
+
+.title {
+    margin-top: 2em;
+    text-align: center;
+    font-size: 4em;
+}
+
+#counter {
+    text-align: center;
+    font-size: 2em;
+    margin: 2em 0px;
+}
+
+#start {
+    margin: 0px auto;
+    display: block;
+    font-size: 2em;
+}
+
+#gauge {
+    display: block;
+    margin: 1em auto;
+    width: 50vw;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #a0a0a0;
+}
+
+#gauge2 {
+    content: "";
+    display: block;
+    width: 0%;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #393939;
+}
+
+#result {
+    margin-top: 2em;
+    text-align: center;
+    font-size: 2em;
+}
+
+#s-g {
+    justify-content: center;
+    display: flex;
+    margin-top: 7px;
+}
+
+#s-g input {
+    margin: 0px 10px;
+    font-family: "Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
+    font-size: 30px;
+    height: 30px;
+    width: 40px;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 1.4em;
+    display: block;
+}
+
+.setting {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}

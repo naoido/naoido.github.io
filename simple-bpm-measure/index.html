@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>BPM計測</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+</head>
+<body>
+
+    <h1 class="title">BPMカウンター</h1>
+
+    <div id="gauge">
+        <div id="gauge2"></div>
+    </div>
+
+    <p id="counter">Count : 0</p>
+
+    <input type="button", onclick="start()" value="start" id="start">
+    <h2>使用するキー</h2>
+    <div id="s-g">
+        <input type="text" id="r-key" maxlength="1" value="x">
+        <input type="text" id="l-key" maxlength="1" value="z">
+    </div>
+    <h2>計測する時間</h2>
+    <div id="s-g">
+        <input type="text" id="sec" maxlength="2" value="10">
+        <p>s</p>
+    </div>
+    <div class="setting">
+        <input type="checkbox" id="c-1" checked="true"><p>結果を1/4にする</p>
+    </div>
+
+    <p id="result"></p>
+    
+</body>
+</html>
