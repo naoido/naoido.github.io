@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>神経衰弱</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>神経衰弱</h1>
+    <div id="setting">
+        <table border="1">
+            <thead>
+                <tr>
+                    <th colspan="2">設定</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+                <tr>
+                    <th>難易度</th>
+                    <th>
+                        <select id="difficult">
+                            <option value="half">ハーフ(24枚)</option>
+                            <option value="full">フル(48枚)</option>
+                        </select>
+                    </th>
+                </tr>
+                <tr>
+                    <th>ユーザー数</th>
+                    <th>
+                        <input type="number" id="numberOfPlayer" value="1" min="1">
+                    </th>
+                </tr>
+            </tbody>
+        </table>
+        <button type="submit" onclick="setupField()">開始する</button>
+    </div>
+    <div id="field">
+        <div id="playerData"></div>
+        <h3 id="nowPlayerName"></h3>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
